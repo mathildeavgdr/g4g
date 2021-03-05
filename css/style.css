@@ -1,0 +1,63 @@
+
+html { 
+	height: 100%;
+	width: 100%;
+}
+
+@font-face {
+    font-family: "Impact Nieuw";
+    src: url('fonts/impactnieuw-2019.otf');
+}
+
+body{
+	background: linear-gradient(45deg, #e9c4dc, white);
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+h1 {
+    font-family: "Impact Nieuw";
+    text-align: center;
+	margin-top: 50vh;
+  	transform: translateY(-50%);
+  	font-size: 4vh;
+}
+
+a {
+	font-family: "Impact Nieuw";
+  	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mailto {
+	color: black;
+}
+
+.instagram {
+	display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+}
+
+.elise {
+	color: white;
+	font-size: 3vh
+}
+
+.iyo {
+	color: white;
+	font-size: 3vh;
+}
+
+.mathilde {
+	color: white;
+	font-size: 3vh;
+}
+
