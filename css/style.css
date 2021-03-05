@@ -36,7 +36,8 @@ a:hover {
 }
 
 .mailto {
-	color: black;
+  color: #1b1b1b;
+
 }
 
 .instagram {
@@ -62,3 +63,32 @@ a:hover {
 	font-size: 4vh;
 }
 
+.bigTitle {
+	font-size: 22vh; 
+	line-height:19vh;
+}
+
+@media screen and (max-width: 960px) {
+
+.bigTitle {
+	font-size: 5vh; 
+	line-height:5vh;
+
+}
+
+h1 {
+	font-size: 3vh;
+}
+
+.elise, .iyo, .mathilde {
+	color: white;
+	font-size: 3vh;
+}
+
+.instagram {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	}
+
+}
